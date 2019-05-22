@@ -3,14 +3,13 @@ python:3.5
 pytorch:0.4.1
 
 数据准备：
-  create_dataset:
-  pip install lmdb
-  pip install opencv-python
-
-  python2
-  执行：
-  python create_labels.py
-  python create_dataset.py
+create_dataset:
+pip install lmdb
+pip install opencv-python
+python2
+执行：
+python create_labels.py
+python create_dataset.py
 
 执行训练：
 python train.py
