@@ -18,4 +18,4 @@ test model：
 python test.py
 
 competition url：https://bbs.pinggu.org/thread-6734039-1-1.html
-
+We won the third place, and this is our method to solve the paoblem.
