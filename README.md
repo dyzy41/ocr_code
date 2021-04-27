@@ -2,19 +2,20 @@
 python:3.5
 pytorch:0.4.1
 
-数据准备：
+data prepare：
 create_dataset:
 pip install lmdb
 pip install opencv-python
 python2
-执行：
+run for prepare data：
 python create_labels.py
 python create_dataset.py
 
-执行训练：
+training：
 python train.py
-注意：在os.environ 以及gpu_list调整gpu数量
 
-测试模型：
-生成测试数据集以后，更改test.py的valroot路径
-执行：python test.py
+test model：
+python test.py
+
+competition url：https://bbs.pinggu.org/thread-6734039-1-1.html
+
